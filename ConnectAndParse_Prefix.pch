@@ -1,0 +1,10 @@
+#import <Availability.h>
+//
+// Prefix header for all source files of the 'ConnectAndParse' target in the 'ConnectAndParse' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import "TwitterService.h"
+#endif
